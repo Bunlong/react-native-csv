@@ -149,5 +149,9 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "@types/papaparse": "^5.2.5",
+    "papaparse": "^5.3.0"
   }
 }
