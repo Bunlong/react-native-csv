@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { jsonToCSV } from 'react-native-csv';
+import { jsonToCSV, readRemoteFile } from 'react-native-csv';
 
 export default function App() {
   React.useEffect(() => {
@@ -32,9 +32,20 @@ export default function App() {
       }
     ]`;
     const results = jsonToCSV(jsonData);
-    console.log('======================');
+    console.log('1111111111111111111111');
     console.log(results);
-    console.log('======================');
+    console.log('1111111111111111111111');
+
+    readRemoteFile(
+      'https://react-papaparse.js.org/static/csv/normal.csv',
+      {
+        complete: (results: any) => {
+          console.log('2222222222222222222222');
+          console.log(results)
+          console.log('2222222222222222222222');
+        }
+      }
+    )
   }, []);
 
   return (
