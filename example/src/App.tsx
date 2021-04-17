@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { jsonToCSV, readRemoteFile } from 'react-native-csv';
+import { jsonToCSV, readRemoteFile, readString } from 'react-native-csv';
 
 export default function App() {
   React.useEffect(() => {
@@ -46,6 +46,16 @@ export default function App() {
         }
       }
     )
+
+    const str = `Column 1,Column 2,Column 3,Column 4
+1-1,1-2,1-3,1-4
+2-1,2-2,2-3,2-4
+3-1,3-2,3-3,3-4
+4,5,6,7`;
+    const result = readString(str);
+    console.log('3333333333333333333333');
+    console.log(result);
+    console.log('3333333333333333333333');
   }, []);
 
   return (
