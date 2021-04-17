@@ -36,6 +36,21 @@ const str = `Column 1,Column 2,Column 3,Column 4
 const results = readString(str);
 ```
 
+### 🎀 readRemoteFile
+
+```javascript
+import { readRemoteFile } from 'react-native-csv';
+
+readRemoteFile(
+  url,
+  {
+    complete: (results) => {
+      console.log('Results:', results)
+    }
+  }
+);
+```
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
