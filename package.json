@@ -34,7 +34,9 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "react-native-csv",
+    "csv"
   ],
   "repository": "https://github.com/Bunlong/react-native-csv",
   "author": "Bunlong <bunlong.van@gmail.com> (https://github.com/Bunlong)",
