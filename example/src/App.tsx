@@ -36,16 +36,13 @@ export default function App() {
     console.log(results);
     console.log('1111111111111111111111');
 
-    readRemoteFile(
-      'https://react-papaparse.js.org/static/csv/normal.csv',
-      {
-        complete: (results: any) => {
-          console.log('2222222222222222222222');
-          console.log(results)
-          console.log('2222222222222222222222');
-        }
-      }
-    )
+    readRemoteFile('https://react-papaparse.js.org/static/csv/normal.csv', {
+      complete: (results: any) => {
+        console.log('2222222222222222222222');
+        console.log(results);
+        console.log('2222222222222222222222');
+      },
+    });
 
     const str = `Column 1,Column 2,Column 3,Column 4
 1-1,1-2,1-3,1-4
@@ -60,7 +57,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Result</Text>
+      <Text>Hello world!</Text>
     </View>
   );
 }
