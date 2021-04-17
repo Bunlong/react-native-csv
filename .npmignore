@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+*.log
+yarn-error.log
+resources
+.expo
+.vscode
+example
