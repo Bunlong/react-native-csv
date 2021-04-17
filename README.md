@@ -1,21 +1,23 @@
+<p align="center">
+  ⭐️ Please support us by giving a star! Thanks! ⭐️
+</p>
+
 # react-native-csv
 
 react-native-csv is the fastest CSV (or delimited text) parser for React Native.
 
-## Installation
+## 🔧 Installation
 
-```sh
-npm install react-native-csv
+react-native-csv is available on npm. It can be installed with the following command:
+
+```
+npm install react-native-csv --save
 ```
 
-## Usage
+react-native-csv is available on yarn as well. It can be installed with the following command:
 
-```js
-import Csv from "react-native-csv";
-
-// ...
-
-const result = await Csv.multiply(3, 7);
+```
+yarn add react-native-csv --save
 ```
 
 ## Contributing
