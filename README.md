@@ -90,6 +90,10 @@ const results = jsonToCSV(jsonData);
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
 
+## ❗ Issues
+
+If you think any of the `react-native-csv` can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.
+
 ## License
 
 MIT
