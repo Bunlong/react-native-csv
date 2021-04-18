@@ -1,4 +1,4 @@
-const isProduction = false // true
+const isProduction = true
 
 module.exports = {
   webpack: (config) => {
@@ -13,9 +13,8 @@ module.exports = {
   exportPathMap: function () {
     return {
       '/': { page: '/' },
-      '/demo': { page: '/demo' },
       '/docs': { page: '/docs' }
     }
   },
-  assetPrefix: isProduction ? 'https://react-papaparse.js.org' : ''
+  assetPrefix: isProduction ? 'https://react-native-csv.js.org' : ''
 }
