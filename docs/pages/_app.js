@@ -23,8 +23,6 @@ class CustomApp extends App {
     let title = '';
     if (pageName === '') {
       title = 'react-native-csv';
-    } else if (pageName === 'demo') {
-      title = 'Demo';
     } else if (pageName === 'docs') {
       title = 'Documentation';
     }
@@ -131,22 +129,21 @@ class CustomApp extends App {
                 react-native-csv by{' '}
                 <a href="https://github.com/bunlong">Bunlong</a>
                 <br />
-                &copy; 2018-2020
+                &copy; 2021
               </div>
 
               <div className="grid-15 mobile-grid-50 links">
                 <h5>Learn</h5>
-                <a href="/demo">Demo</a>
                 <a href="/docs">Documentation</a>
               </div>
 
               <div className="grid-15 mobile-grid-50 links">
                 <h5>Project</h5>
                 <a
-                  href="https://github.com/Bunlong/react-native-csv"
+                  href="https://github.com/Bunlong/react-papaparse"
                   target="_blank"
                 >
-                  react-native-csv
+                  react-papaparse
                 </a>
               </div>
             </div>

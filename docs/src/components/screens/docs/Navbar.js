@@ -9,9 +9,6 @@ const Navbar = () => {
             <a href="/">
               <i className="fa fa-home fa-lg" /> Home
             </a>
-            <a href="/demo">
-              <i className="fa fa-magic fa-lg" /> Demo
-            </a>
             <a href="/docs">
               <i className="fa fa-book fa-lg" /> Docs
             </a>
@@ -19,7 +16,7 @@ const Navbar = () => {
         </div>
         <div className="grid-20 hide-on-mobile text-center">
           <a href="/" className="text-logo">
-            react-native-csv 3
+            react-native-csv 0.2
           </a>
         </div>
         <div className="grid-40 mobile-grid-50 text-right">

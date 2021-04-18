@@ -7,7 +7,7 @@ const Framework = () => {
         <div className="grid-100">
           <h3>Frameworks</h3>
           <p>
-            react-native-csv strongly support{' '}
+            react-papaparse strongly support{' '}
             <a href="https://nextjs.org" target="blank">
               Next.js
             </a>
@@ -15,7 +15,7 @@ const Framework = () => {
             <a href="https://create-react-app.dev" target="blank">
               Create React App
             </a>{' '}
-            and other React frameworks. react-native-csv is the fastest React CSV
+            and other React frameworks. react-papaparse is the fastest React CSV
             parser for the browser (only works in the browser), so you need to
             set the component with no SSR (server-side render){' '}
             <b>

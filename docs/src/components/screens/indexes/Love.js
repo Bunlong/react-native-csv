@@ -11,8 +11,8 @@ const Love = () => {
           <p>
             <a href="https://www.npmjs.com/package/react-native-csv">
               <img
-                src="https://img.shields.io/npm/dm/react-native-csv.svg"
-                alt="react-native-csv"
+                src="https://img.shields.io/npm/dm/react-papaparse.svg"
+                alt="react-papaparse"
               />
             </a>
           </p>

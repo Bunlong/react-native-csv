@@ -13,9 +13,9 @@ const Documentation = () => {
                 <li>
                   <a href="#strings">readString</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#local-files">Parse local file</a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#remote-files">readRemoteFile</a>
                 </li>

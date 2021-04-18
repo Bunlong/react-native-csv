@@ -7,12 +7,12 @@ const Config = () => {
         <div className="grid-100">
           <h4 id="config">The Parse Config Object</h4>
           <p>
-            The <code>readString</code> function and <code>CSVReader</code>{' '}
-            component may be passed a configuration object. It defines settings,
+            The <code>readString</code> function {/* and <code>CSVReader</code>{' '}
+            component */} may be passed a configuration object. It defines settings,
             behavior, and callbacks used during parsing. Any properties left
             unspecified will resort to their default values.
           </p>
-          <h5>Warning</h5>
+          {/* <h5>Warning</h5>
           <p>
             Setting the <code>complete</code> callback function on the config
             object will disable the <code>onDrop</code> and/or{' '}
@@ -24,7 +24,7 @@ const Config = () => {
             will disable the <code>onDrop</code> and/or <code>onFileLoad</code>{' '}
             functions you pass to the <code>CSVReader</code> component and will
             disable the progress bar.
-          </p>
+          </p> */}
         </div>
 
         <div className="grid-100">

@@ -125,4 +125,14 @@ Run the example app on Android:
 
 git commit -m "your-msg" --no-verify
 
+Publish
+
+  $ yarn publish --network-timeout 600000
+
+  If does not work
+
+  $ rm -rf node_modules
+  $ npm install
+  $ npm publish
+
 -->

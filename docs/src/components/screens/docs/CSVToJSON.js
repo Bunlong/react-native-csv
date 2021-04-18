@@ -9,7 +9,7 @@ const CSVToJSON = () => {
           <h4 id="csv-to-json">Convert CSV to JSON</h4>
           <p>
             Delimited data can be parsed out of strings or files. Files that are
-            parsed can be local. Local files are used with CSVReader component.
+            parsed can be local. {/* Local files are used with CSVReader component. */}
           </p>
         </div>
 
@@ -45,7 +45,7 @@ const CSVToJSON = () => {
 
         <div className="clear" />
 
-        <div className="grid-100">
+        {/* <div className="grid-100">
           <h5 id="local-files">Parse local files</h5>
         </div>
         <div className="grid-100">
@@ -87,7 +87,7 @@ const CSVToJSON = () => {
           <span
             style={{ float: 'right', marginBottom: 14, textAlignLast: 'end' }}
           >
-            <a href="https://github.com/Bunlong/react-native-csv/blob/master/demo/CSVReader1.js">
+            <a href="https://github.com/Bunlong/react-papaparse/blob/master/demo/CSVReader1.js">
               Source code
             </a>
           </span>
@@ -177,7 +177,7 @@ const CSVToJSON = () => {
           <span
             style={{ float: 'right', marginBottom: 14, textAlignLast: 'end' }}
           >
-            <a href="https://github.com/Bunlong/react-native-csv/blob/master/demo/CSVReader2.js">
+            <a href="https://github.com/Bunlong/react-papaparse/blob/master/demo/CSVReader2.js">
               Source code
             </a>
           </span>
@@ -230,7 +230,7 @@ const CSVToJSON = () => {
             </li>
             <li>
               <a
-                href="https://github.com/Bunlong/react-native-csv/wiki/CSVReader-(Drag-to-Upload)-Style"
+                href="https://github.com/Bunlong/react-papaparse/wiki/CSVReader-(Drag-to-Upload)-Style"
                 target="_blank"
               >
                 How to customize CSVReader (Drag to upload) style?
@@ -266,7 +266,7 @@ const CSVToJSON = () => {
           <span
             style={{ float: 'right', marginBottom: 14, textAlignLast: 'end' }}
           >
-            <a href="https://github.com/Bunlong/react-native-csv/blob/master/demo/CSVReader3.js">
+            <a href="https://github.com/Bunlong/react-papaparse/blob/master/demo/CSVReader3.js">
               Source code
             </a>
           </span>
@@ -323,7 +323,7 @@ const CSVToJSON = () => {
             </li>
             <li>
               <a
-                href="https://github.com/Bunlong/react-native-csv/wiki/CSVReader-(Drag-to-Upload)-Style"
+                href="https://github.com/Bunlong/react-papaparse/wiki/CSVReader-(Drag-to-Upload)-Style"
                 target="_blank"
               >
                 How to customize CSVReader (Drag to upload) style?
@@ -359,7 +359,7 @@ const CSVToJSON = () => {
           <span
             style={{ float: 'right', marginBottom: 14, textAlignLast: 'end' }}
           >
-            <a href="https://github.com/Bunlong/react-native-csv/blob/master/demo/CSVReader4.js">
+            <a href="https://github.com/Bunlong/react-papaparse/blob/master/demo/CSVReader4.js">
               Source code
             </a>
           </span>
@@ -415,14 +415,14 @@ const CSVToJSON = () => {
             </li>
             <li>
               <a
-                href="https://github.com/Bunlong/react-native-csv/wiki/CSVReader-(Drag-to-Upload)-Style"
+                href="https://github.com/Bunlong/react-papaparse/wiki/CSVReader-(Drag-to-Upload)-Style"
                 target="_blank"
               >
                 How to customize CSVReader (Drag to upload) style?
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div className="clear" />
 

@@ -10,10 +10,10 @@ const Feature = () => {
       </div>
       <div id="ticker">
         <div className="ticker-item current">
-          <p>Now the fastest React CSV parser for the browser</p>
+          <p>Now the fastest CSV parser for React Native</p>
         </div>
         <div className="ticker-item">
-          <p>The world's first multi-threaded CSV parser for the browser</p>
+          <p>The world's first multi-threaded CSV parser for React Native</p>
         </div>
         <div className="ticker-item">
           <p>

@@ -31,10 +31,6 @@ const Download = () => {
             <i className="fa fa-github" />
             &nbsp; GitHub
           </a>
-          <a href="/demo" className="button red">
-            <i className="fa fa-magic" />
-            &nbsp; Demo
-          </a>
           <a href="/docs" className="button gray">
             <i className="fa fa-book" />
             &nbsp; Documentation

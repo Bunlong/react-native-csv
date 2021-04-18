@@ -24,11 +24,11 @@ const Index = () => {
       <main>
         <Navbar />
         <Feature />
-        <Framework />
+        {/* <Framework /> */}
         <Love />
         <CSVParsing />
         <Delimiter />
-        <LocalFile />
+        {/* <LocalFile /> */}
         <RemoteFile />
         <Stream />
         <Worker />

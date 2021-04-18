@@ -43,7 +43,7 @@ const LocalFile = () => {
             <code className="language-javascript">
               {`import React, { Component } from 'react'
 
-import { CSVReader } from 'react-native-csv'
+import { CSVReader } from 'react-papaparse'
 
 const buttonRef = React.createRef()
 
@@ -176,7 +176,7 @@ export default class CSVReader extends Component {
             <code className="language-javascript">
               {`import React, { Component } from 'react'
 
-import { CSVReader } from 'react-native-csv'
+import { CSVReader } from 'react-papaparse'
 
 export default class CSVReader extends Component {
   handleOnDrop = (data) => {
@@ -241,7 +241,7 @@ export default class CSVReader extends Component {
             <code className="language-javascript">
               {`import React, { Component } from 'react'
 
-import { CSVReader } from 'react-native-csv'
+import { CSVReader } from 'react-papaparse'
 
 export default class CSVReader extends Component {
   handleOnDrop = (data) => {
@@ -306,7 +306,7 @@ export default class CSVReader extends Component {
             <code className="language-javascript">
               {`import React, { Component } from 'react'
 
-import { CSVReader } from 'react-native-csv'
+import { CSVReader } from 'react-papaparse'
 
 export default class CSVReader extends Component {
   handleOnDrop = (data) => {
