@@ -1,0 +1,27 @@
+{
+  "name": "react-native-csv-docs",
+  "version": "3.11.0",
+  "description": "react-native-csv-docs docs.",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write './pages/*.js' './src/*/*/*.js' './src/*/*/*/*.js' --config ../.prettierrc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "Bunlong <bunlong.van@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.2.0",
+    "raw-loader": "^4.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-papaparse": "^3.11.0",
+    "react-tabs": "^3.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}
