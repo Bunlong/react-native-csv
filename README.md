@@ -122,5 +122,7 @@ Run the example app on Android:
   $ yarn example android
   $ react-native run-android
   $ react-native start
-  
+
+git commit -m "your-msg" --no-verify
+
 -->

@@ -1,6 +1,6 @@
 {
   "name": "react-native-csv",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "react-native-csv is the fastest CSV (or delimited text) parser for React Native.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -155,5 +155,11 @@
   "dependencies": {
     "@types/papaparse": "^5.2.5",
     "papaparse": "^5.3.0"
+  },
+  "git": {
+    "requireBranch": "main"
+  },
+  "hooks": {
+    "after:git:release": "git push origin HEAD"
   }
 }
