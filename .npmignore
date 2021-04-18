@@ -5,4 +5,8 @@ yarn-error.log
 resources
 .expo
 .vscode
-example
+
+/example
+/docs
+/src
+.gitignore
