@@ -62,4 +62,4 @@ lib/
 yarn.lock
 
 /docs/node_modules
-/docs/.next
+/docs/out
